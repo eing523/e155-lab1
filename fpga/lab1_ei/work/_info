@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei
+vlab1_7_seg_decoder_ei
+Z1 2C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv
+Z2 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z3 !s110 1788687716
+!i10b 1
+!s100 ?Fbon@c8<gG4CK1h_^heC3
+Id8IhjT[CQIR7MhRmMl?Ae1
+S1
+R0
+w1788682186
+8C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv
+FC:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv
+!i122 7
+L0 7 28
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1788687716.000000
+!s107 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv|
+Z7 !s90 -reportprogress|300|-work|work|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+vlab1_counter_ei
+R1
+R2
+R3
+!i10b 1
+!s100 F?jfm2]:iHcDC20[`eM?61
+I=FXZLbk[?5=ghQ5FdWTP43
+S1
+R0
+w1788686890
+8C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv
+FC:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv
+!i122 7
+L0 6 31
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv|
+R7
+!i113 0
+R8
+R9
+vlab1_ei
+R1
+R2
+R3
+!i10b 1
+!s100 M8TOcTh54z11Cb?TCXz_K2
+Ijz7EbF;@2`b1T^g6Ebc^I1
+S1
+R0
+w1788686840
+8C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv
+FC:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv
+!i122 7
+L0 6 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
