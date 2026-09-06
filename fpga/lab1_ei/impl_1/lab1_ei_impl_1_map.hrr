@@ -1,0 +1,22 @@
+---------------------------------------------------
+Report for cell lab1_ei
+   Instance path: lab1_ei
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         36        100.0
+                               LUTGATE	         10        100.0
+                                LUTCCU	         26        100.0
+                                 IOBUF	          7        100.0
+                                PFUREG	         26        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                       lab1_counter_ei	          1        91.7
+---------------------------------------------------
+Report for cell lab1_counter_ei
+   Instance path: lab1_ei/lab1_counter_ei_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         33        91.7
+                               LUTGATE	          7        70.0
+                                LUTCCU	         26        100.0
+                                PFUREG	         26        100.0

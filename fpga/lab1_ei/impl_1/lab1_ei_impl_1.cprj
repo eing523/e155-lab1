@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd"
+-sver "C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv" "C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv" "C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv"
+-path "C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei" "C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei"
+-top lab1_ei
+-isTop
+-a "iCE40UP"
+-t "iCE40UP5K"
