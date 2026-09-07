@@ -21,7 +21,7 @@ module lab1_ei_tb();
     #40 reset = 1;
 
 // check that HSOSC produces a clock
-
+    #1;
 	assert (clk == 0)       // check outputs
 			$display("PASSED! The HSOSC produces a clk as desired at time: %0t.", $time);
 		else 
@@ -203,7 +203,7 @@ module lab1_ei_tb();
 	// test 1
         s = 4'bxx00;                // setup inputs
         #10;                        // wait required time
-        assert (led[0] == 0)       // check outputs
+        assert (led[0] == 1'b0)       // check outputs
             $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 
@@ -211,7 +211,7 @@ module lab1_ei_tb();
 	// test 2
         s = 4'bxx01;                // setup inputs
         #10;                        // wait required time
-        assert (led[0] == 1)       // check outputs
+        assert (led[0] == 1'b1)       // check outputs
             $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 
@@ -219,7 +219,7 @@ module lab1_ei_tb();
 	// test 3
         s = 4'bxx10;                // setup inputs
         #10;                        // wait required time
-        assert (led[0] == 1)       // check outputs
+        assert (led[0] == 1'b1)       // check outputs
             $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 
@@ -227,16 +227,17 @@ module lab1_ei_tb();
 	// test 4
         s = 4'bxx11;                // setup inputs
         #10;                        // wait required time
-        assert (led[0] == 0)       // check outputs
+        assert (led[0] == 1'b0)       // check outputs
             $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 
-// led[1]
+
+// led[1]
 
     // test 1
         s = 4'b00xx;                // setup inputs
         #10;                        // wait required time
-        assert (led[1] == 0)       // check outputs
+        assert (led[1] == 1'b0)       // check outputs
             $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 
@@ -244,7 +245,7 @@ module lab1_ei_tb();
     // test 2
         s = 4'b01xx;                // setup inputs
         #10;                        // wait required time
-        assert (led[1] == 0)       // check outputs
+        assert (led[1] == 1'b0)       // check outputs
             $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 
@@ -252,7 +253,7 @@ module lab1_ei_tb();
 	// test 3
         s = 4'b10xx;                // setup inputs
         #10;                        // wait required time
-        assert (led[1] == 0)       // check outputs
+        assert (led[1] == 1'b0)       // check outputs
             $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 
@@ -260,7 +261,7 @@ module lab1_ei_tb();
 	// test 1
         s = 4'b11xx;                // setup inputs
         #10;                        // wait required time
-        assert (led[1] == 1)       // check outputs
+        assert (led[1] == 1'b1)       // check outputs
             $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 

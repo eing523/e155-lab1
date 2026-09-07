@@ -9,7 +9,7 @@ module lab1_counter_ei_tb();
   logic 		  enable; // enable behavior
   logic           led;    // 1 output led
  
-  lab1_counter_ei #(.MAXCOUNT(32'd10000000), .WIDTH(24)) dut (
+  lab1_counter_ei #(.MAXCOUNT(10_000_000), .WIDTH(24)) dut (
         .clk(clk),
         .reset(reset),
 		.enable(enable),
@@ -36,7 +36,7 @@ module lab1_counter_ei_tb();
         else 
             $error("FAILED! The counter enable behaves incorrectly at time: %0t.", $time); 
 	
-	// checking that the enable is on for 48 MHz twice to make sure (10 * 4 = 40)
+	// checking that the enable is on for 48 MHz
 	#80;
 	enable = 1;
 	#40;
@@ -51,6 +51,7 @@ module lab1_counter_ei_tb();
     #20 reset = 1;
 	
 	#200000000; // one cycle is 20 ns, and we need 10,000,000 of them.
+    #20;
 	
 	assert (dut.counter == 0)       // check outputs
             $display("PASSED! The counter max count behavior behaves as desired at time: %0t.", $time);
@@ -59,7 +60,7 @@ module lab1_counter_ei_tb();
 	
 	
 	// checking reset behavior
-	#80
+	#80;
 	reset = 0;
     #20 reset = 1;
 	
