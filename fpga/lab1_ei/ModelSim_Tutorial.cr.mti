@@ -1,0 +1,9 @@
+C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/fulladder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/fulladder.sv
+Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) 'C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/ModelSim_Tutorial.mpf' is used as the ini file.
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}}

@@ -13,131 +13,106 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-# Load canceled
-vlib work
 vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv
 # Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 02:39:46 on Sep 06,2026
+# Start time: 20:03:10 on Sep 06,2026
 # vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv 
 # ** Note: (vlog-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
 # -- Compiling module lab1_7_seg_decoder_ei
 # 
 # Top level modules:
 # 	lab1_7_seg_decoder_ei
-# End time: 02:39:46 on Sep 06,2026, Elapsed time: 0:00:00
+# End time: 20:03:10 on Sep 06,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv
 # Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 02:39:46 on Sep 06,2026
+# Start time: 20:03:10 on Sep 06,2026
 # vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv 
 # ** Note: (vlog-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
 # -- Compiling module lab1_counter_ei
 # 
 # Top level modules:
 # 	lab1_counter_ei
-# End time: 02:39:46 on Sep 06,2026, Elapsed time: 0:00:00
+# End time: 20:03:10 on Sep 06,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv
 # Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 02:39:46 on Sep 06,2026
+# Start time: 20:03:10 on Sep 06,2026
 # vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv 
 # ** Note: (vlog-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
 # -- Compiling module lab1_ei
 # 
 # Top level modules:
 # 	lab1_ei
-# End time: 02:39:46 on Sep 06,2026, Elapsed time: 0:00:00
+# End time: 20:03:10 on Sep 06,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlib work
-# ** Warning: (vlib-34) Library already exists at "work".
-# Errors: 0, Warnings: 1
-vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv
-# Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 02:39:46 on Sep 06,2026
-# vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv 
-# ** Note: (vlog-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# -- Compiling module lab1_ei
-# 
-# Top level modules:
-# 	lab1_ei
-# End time: 02:39:46 on Sep 06,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv
-# Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 02:39:52 on Sep 06,2026
-# vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv 
-# ** Note: (vlog-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# -- Compiling module lab1_7_seg_decoder_ei
-# 
-# Top level modules:
-# 	lab1_7_seg_decoder_ei
-# End time: 02:39:52 on Sep 06,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv
-# Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 02:39:52 on Sep 06,2026
-# vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv 
-# ** Note: (vlog-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# -- Compiling module lab1_counter_ei
-# 
-# Top level modules:
-# 	lab1_counter_ei
-# End time: 02:39:52 on Sep 06,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv
-# Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 02:39:52 on Sep 06,2026
-# vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv 
-# ** Note: (vlog-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# -- Compiling module lab1_ei
-# 
-# Top level modules:
-# 	lab1_ei
-# End time: 02:39:52 on Sep 06,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -gui work.lab1_ei
+vsim -gui work.lab1_7_seg_decoder_ei work.lab1_counter_ei work.lab1_ei -L iCE40UP -voptargs=+acc
 # ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# vsim -gui work.lab1_ei 
-# Start time: 02:40:16 on Sep 06,2026
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Note: (vopt-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# ** Error: C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv(17): Module 'HSOSC' is not defined.
-#  For instance 'hf_osc' at path 'lab1_ei.lab1_counter_ei_inst'
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
-# Error loading design
-# End time: 02:40:17 on Sep 06,2026, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-force s 0000
-# Error while executing: force
-# Usage: force <object_name> {<value> [[@]<time_info>][, <value> [[@]<time_info>]...} [-freeze | -drive | -deposit] [-cancel [@]<time_info>] [-repeat [@]<time_info>]
-force s 0000 run 100
-# Error while executing: force
-# Usage: force <object_name> {<value> [[@]<time_info>][, <value> [[@]<time_info>]...} [-freeze | -drive | -deposit] [-cancel [@]<time_info>] [-repeat [@]<time_info>]
-vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv
-# Questa Lattice OEM Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 02:41:56 on Sep 06,2026
-# vlog -reportprogress 300 -work work C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_ei.sv 
-# ** Note: (vlog-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# -- Compiling module lab1_7_seg_decoder_ei
-# -- Compiling module lab1_counter_ei
-# -- Compiling module lab1_ei
-# 
-# Top level modules:
-# 	lab1_ei
-# End time: 02:41:56 on Sep 06,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -gui work.lab1_ei -voptargs=+acc
-# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# vsim -gui work.lab1_ei -voptargs="+acc" 
-# Start time: 02:42:27 on Sep 06,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim -gui work.lab1_7_seg_decoder_ei work.lab1_counter_ei work.lab1_ei -L iCE40UP -voptargs="+acc" 
+# Start time: 20:03:49 on Sep 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
 # ** Note: (vopt-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
-# ** Error: C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv(17): Module 'HSOSC' is not defined.
-#  For instance 'hf_osc' at path 'lab1_ei.lab1_counter_ei_inst'
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
-# Error loading design
-# End time: 02:42:27 on Sep 06,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.lab1_7_seg_decoder_ei(fast)
+# Loading work.lab1_counter_ei(fast)
+# Loading iCE40UP.HSOSC(fast)
+# Loading work.lab1_ei(fast)
+# Loading work.lab1_7_seg_decoder_ei(fast__1)
+# Loading work.lab1_counter_ei(fast__1)
+vsim -gui work.lab1_ei -L iCE40UP -voptargs=+acc
+# End time: 20:04:18 on Sep 06,2026, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -gui work.lab1_ei -L iCE40UP -voptargs="+acc" 
+# Start time: 20:04:18 on Sep 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.lab1_ei(fast)
+# Loading work.lab1_7_seg_decoder_ei(fast)
+# Loading work.lab1_counter_ei(fast)
+# Loading iCE40UP.HSOSC(fast)
+add wave -position end  sim:/lab1_ei/s
+add wave -position end  sim:/lab1_ei/reset
+add wave -position end  sim:/lab1_ei/led
+add wave -position end  sim:/lab1_ei/seg
+force s 4'b0000
+run 100
+force s 4'b0001
+run 100
+force s 4'b0010
+run 100
+quit -sim
+# End time: 20:07:55 on Sep 06,2026, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 1
+# Loading project ModelSim_Tutorial
+# Compile of fulladder.sv was successful.
+vsim -gui -L iCE40UP -voptargs=+acc work.fulladder
+# ** Note: (vsim-220) 'C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/ModelSim_Tutorial.mpf' is used as the ini file.
+# vsim -gui -L iCE40UP -voptargs="+acc" work.fulladder 
+# Start time: 20:10:29 on Sep 06,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/ModelSim_Tutorial.mpf' is used as the ini file.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.fulladder(fast)
+# Load canceled
+add wave -position end  sim:/fulladder/A
+add wave -position end  sim:/fulladder/B
+add wave -position end  sim:/fulladder/Cin
+add wave -position end  sim:/fulladder/S
+add wave -position end  sim:/fulladder/Cout
+add wave -position end  sim:/fulladder/n1
+add wave -position end  sim:/fulladder/n2
+add wave -position end  sim:/fulladder/n3
+force A 5
+force B 5
+force Cin 5
+run 10
+# End time: 20:26:01 on Sep 06,2026, Elapsed time: 0:15:32
+# Errors: 0, Warnings: 6

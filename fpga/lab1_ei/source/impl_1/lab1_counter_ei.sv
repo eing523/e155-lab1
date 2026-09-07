@@ -3,32 +3,30 @@
 // Date of creation: 9/5/2026
 // Summary: Module for E155 Lab 1, which contains the counter that blinks led[2].
 
-module lab1_counter_ei(
-	input   logic reset,
-	output  logic led
+module lab1_counter_ei #(parameter MAXCOUNT = 10_000_000, parameter WIDTH = 25)(
+	input logic clk,
+	input logic reset,
+	input logic enable,
+	output logic led
 );
-
-	logic int_osc;
-	logic pulse;
-	logic led_state = 0;
-	logic [24:0] counter = 0;
 	
-	// Internal high-speed oscillator
-	HSOSC hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
+	logic [WIDTH-1:0] counter = 32'b0;
 	
 	// Simple clock divider
-	always_ff @(posedge int_osc) begin
-		if (reset) begin
-			counter <= 0;
-			led <= 0;
+	always_ff @(posedge clk) begin
+		if (!reset) begin // 0 = high and 1 = low.
+			counter <= 32'b0;
+			led <= 1'b0;
 	end	
-   // Choosing a hard-coded max count of 5,000,000 due to calculations of 24 mHz/4.8 Hz	
-		else if (counter >= 5000000) begin
-			counter <= 0;
-			led <= ~led;
+   // Choosing a max count of 10,000,000 due to calculations of 48 mHz/4.8 Hz	
+		else if (enable) begin
+			if (counter >= MAXCOUNT) begin
+				counter <= 32'b0;
+				led <= ~led;
+			end
 	end
 		else begin
-			counter <= counter + 1;
+			counter <= counter + 25'd1;
 		end
 	end
 

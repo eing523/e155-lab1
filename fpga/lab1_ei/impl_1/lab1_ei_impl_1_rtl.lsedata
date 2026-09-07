@@ -1,7 +1,7 @@
 <top name = "lab1_ei"  library = "work"  arch = ""  entry = "Verilog">
 
 <clocks>
-    <clockitem name = "lab1_counter_ei_inst/int_osc"  type = "net" />
+    <clockitem name = "clk"  type = "net" />
 </clocks>
 
 <!--
