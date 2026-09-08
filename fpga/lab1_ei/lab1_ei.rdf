@@ -21,7 +21,19 @@
         <Source name="source/impl_1/lab1_counter_ei_tb.sv" type="Verilog" type_short="Verilog" excluded="TRUE">
             <Options VerilogStandard="System Verilog"/>
         </Source>
+        <Source name="lab1_7_seg_decoder_ei_tb/lab1_7_seg_decoder_ei_tb.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="lab1_counter_ei_tb/lab1_counter_ei_tb.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="lab1_ei.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
         <Source name="lab1_ei_tb/lab1_ei_tb.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
     </Implementation>

@@ -10,23 +10,26 @@ module lab1_counter_ei #(parameter MAXCOUNT = 10_000_000, parameter WIDTH = 25)(
 	output logic led
 );
 	
-	logic [WIDTH-1:0] counter = 32'b0;
+	logic [WIDTH-1:0] counter = 25'b0;
 	
 	// Simple clock divider
 	always_ff @(posedge clk) begin
 		if (!reset) begin // 0 = high and 1 = low.
-			counter <= 32'b0;
-			led <= 1'b0;
-	end	
+				counter <= 25'b0;
+				led <= 1'b0;
+			end	
    // Choosing a max count of 10,000,000 due to calculations of 48 mHz/4.8 Hz	
 		else if (enable) begin
 			if (counter >= MAXCOUNT) begin
-				counter <= 32'b0;
+				counter <= 25'b0;
 				led <= ~led;
 			end
-	end
-		else begin
+			else begin
 			counter <= counter + 25'd1;
+			end
+		end
+		else begin
+			counter <= counter + 25'd0;
 		end
 	end
 

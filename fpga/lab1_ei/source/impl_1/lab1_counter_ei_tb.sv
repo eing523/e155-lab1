@@ -26,21 +26,22 @@ module lab1_counter_ei_tb();
  // apply stimuli and check outputs
   initial begin
     reset = 0;
-    #10 reset = 1;
-
+    #20 reset = 1;
 	// checking that the enable is off for 48 MHz for a few periods to make sure
 	enable = 0;
-	#50; // we have #10 from before
-	assert (led == 1'b0)       // check outputs
+	#40;
+	assert (dut.counter == 32'd0)       // check outputs
             $display("PASSED! The counter enable behaves as desired at time: %0t.", $time);
         else 
-            $error("FAILED! The counter enable behaves incorrectly at time: %0t.", $time); 
+            $error("FAILED! The counter enable behaves incorrectly at time: %0t.", dut.counter, $time); 
 	
 	// checking that the enable is on for 48 MHz
-	#80;
-	enable = 1;
 	#40;
-	assert (led == 1'b1)       // check outputs
+	enable = 1;
+	
+	#200000000 // waiting for 48 MHz for counter to activate
+	
+	assert (dut.counter == 10_000_000)       // check outputs
             $display("PASSED! The counter enable behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The counter enable behaves incorrectly at time: %0t.", $time); 

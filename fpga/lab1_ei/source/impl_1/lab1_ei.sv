@@ -10,9 +10,7 @@ module lab1_ei(
 	output logic [2:0] led,
 	output logic clk
 );
-	
-	logic enable;
-	
+		
 	// Internal high-speed oscillator
 	HSOSC hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(clk));
 	
@@ -20,7 +18,7 @@ module lab1_ei(
 	lab1_7_seg_decoder_ei lab1_7_seg_decoder_ei_inst(s, seg);
 	
 	// Instantiate counter module and blinking for led[2] using a counter
-	lab1_counter_ei lab1_counter_ei_inst(.clk(clk), .reset(reset), .enable(enable), .led(led[2]));
+	lab1_counter_ei lab1_counter_ei_inst(.clk(clk), .reset(reset), .enable(1'b1), .led(led[2]));
 	
 	// Switch-to-LED logic for led[0]
 	assign led[0] = s[1] ^ s[0];
