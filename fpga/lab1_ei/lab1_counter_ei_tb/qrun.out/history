@@ -1,3 +1,3 @@
 - Entry: 1
-  Time: Mon Sep 07 22:22:26 2026
+  Time: Wed Sep 09 00:30:12 2026
   Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -clean -f C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/lab1_counter_ei_tb/lab1_counter_ei_tb.f 

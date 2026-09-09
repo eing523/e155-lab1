@@ -17,5 +17,5 @@ Writing output file 'lab1_ei_impl_1_syn.udb'.
 POSTSYN finished successfully.
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 43 MB
-Checksum -- postsyn: 342c3c04a3e3fe7d74cf7ff9e1e878257863c2
+Peak Memory Usage: 42 MB
+Checksum -- postsyn: 22ea2299df1ee957b4a12383ef75285fa2567dae

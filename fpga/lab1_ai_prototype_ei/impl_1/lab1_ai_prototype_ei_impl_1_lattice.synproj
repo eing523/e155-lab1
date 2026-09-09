@@ -42,7 +42,7 @@
 # Source Files
 -sver "../source/impl_1/lab1_ai_prototype_ei.sv"
 -path ".."
--top lab1_ai_prototype_ei
+-top top
 # Output Configuration
 -udb "lab1_ai_prototype_ei_impl_1_rtl.udb"
 -output_hdl "lab1_ai_prototype_ei_impl_1.vm"

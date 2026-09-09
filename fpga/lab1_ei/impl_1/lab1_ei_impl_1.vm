@@ -1,5 +1,5 @@
 // Verilog netlist produced by program LSE :  version Radiant Software (64-bit) 2026.1.0.37.0
-// Netlist written on Mon Sep  7 21:46:35 2026
+// Netlist written on Tue Sep  8 23:31:42 2026
 // Source file index table: 
 // Object locations will have the form @<file_index>(<first_ line>[<left_column>],<last_line>[<right_column>])
 // file 0 "c:/users/eing/documents/github/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_7_seg_decoder_ei.sv"
@@ -127,8 +127,8 @@ module lab1_ei (input [3:0]s, input reset, output [6:0]seg, output [2:0]led,
     defparam hf_osc.FABRIC_TRIME = "DISABLE";
     (* LSE_LINE_FILE_ID=26, LSE_LCOL=18, LSE_RCOL=93, LSE_LLINE=21, LSE_RLINE=21 *) lab1_counter_ei lab1_counter_ei_inst (clk_c, 
             reset_c, led_c[2]);
-    (* LSE_LINE_FILE_ID=26, LSE_LCOL=24, LSE_RCOL=58, LSE_LLINE=18, LSE_RLINE=18 *) lab1_7_seg_decoder_ei lab1_7_seg_decoder_ei_inst ({s_c}, 
-            {seg_c}, led_c[0]);
+    (* LSE_LINE_FILE_ID=26, LSE_LCOL=24, LSE_RCOL=58, LSE_LLINE=18, LSE_RLINE=18 *) lab1_7_seg_decoder_ei lab1_7_seg_decoder_ei_inst ({seg_c}, 
+            {s_c}, led_c[0]);
     
 endmodule
 
@@ -138,17 +138,17 @@ endmodule
 
 module lab1_counter_ei (input clk_c, input reset_c, output \led_c[2] );
     
-    (* is_clock=1 *) wire clk_c;
     wire [24:0]counter;
+    (* is_clock=1 *) wire clk_c;
     
-    wire GND_net, VCC_net, n575;
+    wire GND_net, VCC_net, n180;
     wire [24:0]n105;
     
-    wire n25, n596, n51, n59, n180, n590, n174, n182, n190, 
-        n32, n602, n276, n178, n593, n608, n4, n4_adj_33, n50, 
-        n176, n172, n186, n168, n19, n22, n20, n21, n23, n24, 
-        n587, n611, n188, n605, n184, n599, n584, n170, n581, 
-        n578, n4_adj_34, n26;
+    wire n25, n51, n276, n596, n32, n575, n182, n578, n590, 
+        n587, n178, n593, n26, n605, n186, n4, n176, n4_adj_33, 
+        n50, n59, n20, n19, n184, n599, n21, n22, n23, n24, 
+        n174, n190, n611, n188, n608, n602, n172, n584, n170, 
+        n168, n581, n4_adj_34;
     
     (* syn_use_carry_chain=1 *) FD1P3XZ counter_47__i25 (.D(n105[24]), .SP(VCC_net), 
             .CK(clk_c), .SR(n51), .Q(counter[24]));
@@ -185,9 +185,9 @@ module lab1_counter_ei (input clk_c, input reset_c, output \led_c[2] );
             .CK(clk_c), .SR(n51), .Q(counter[22]));
     defparam counter_47__i23.REGSET = "RESET";
     defparam counter_47__i23.SRMODE = "CE_OVER_LSR";
-    (* lut_function="(!(A (B)+!A !(B)))" *) LUT4 i19_2_lut (.A(\led_c[2] ), 
+    (* lut_function="(!(A (B)+!A !(B)))" *) LUT4 i20_2_lut (.A(\led_c[2] ), 
             .B(n4_adj_33), .Z(n59));
-    defparam i19_2_lut.INIT = "0x6666";
+    defparam i20_2_lut.INIT = "0x6666";
     FA2 counter_47_add_4_11 (.A0(GND_net), .B0(GND_net), .C0(counter[9]), 
         .D0(n176), .CI0(n176), .A1(GND_net), .B1(GND_net), .C1(counter[10]), 
         .D1(n590), .CI1(n590), .CO0(n590), .CO1(n178), .S0(n105[9]), 
@@ -278,10 +278,10 @@ module lab1_counter_ei (input clk_c, input reset_c, output \led_c[2] );
             .CK(clk_c), .SR(n51), .Q(n24));
     defparam counter_47__i2.REGSET = "RESET";
     defparam counter_47__i2.SRMODE = "CE_OVER_LSR";
-    (* LSE_LINE_FILE_ID=26, LSE_LCOL=18, LSE_RCOL=93, LSE_LLINE=21, LSE_RLINE=21 *) FD1P3XZ led (.D(n59), 
+    (* lse_init_val=0, LSE_LINE_FILE_ID=26, LSE_LCOL=18, LSE_RCOL=93, LSE_LLINE=21, LSE_RLINE=21 *) FD1P3XZ led_state (.D(n59), 
             .SP(VCC_net), .CK(clk_c), .SR(n50), .Q(\led_c[2] ));
-    defparam led.REGSET = "RESET";
-    defparam led.SRMODE = "CE_OVER_LSR";
+    defparam led_state.REGSET = "RESET";
+    defparam led_state.SRMODE = "CE_OVER_LSR";
     FA2 counter_47_add_4_9 (.A0(GND_net), .B0(GND_net), .C0(counter[7]), 
         .D0(n174), .CI0(n174), .A1(GND_net), .B1(GND_net), .C1(counter[8]), 
         .D1(n587), .CI1(n587), .CO0(n587), .CO1(n176), .S0(n105[7]), 
@@ -362,7 +362,7 @@ endmodule
 // Verilog Description of module lab1_7_seg_decoder_ei
 //
 
-module lab1_7_seg_decoder_ei (input [3:0]s_c, output [6:0]seg_c, output \led_c[0] );
+module lab1_7_seg_decoder_ei (output [6:0]seg_c, input [3:0]s_c, output \led_c[0] );
     
     
     (* lut_function="(!(A (B+!(C))+!A (B ((D)+!C)+!B !(C+(D)))))" *) LUT4 seg_c_4__I_0_4_lut (.A(s_c[1]), 

@@ -21,7 +21,7 @@ module lab1_ei_tb();
     #40 reset = 1;
 
 // check that HSOSC produces a clock
-    #3; // change to 3 later
+    #3;
 	assert (clk == 0)       // check outputs
 			$display("PASSED! The HSOSC produces a clk as desired at time: %0t.", $time);
 		else 
@@ -40,8 +40,7 @@ module lab1_ei_tb();
 // Counter module testing connection
 	#200000000; // waiting for 48 MHz for counter to activate
 	
-	#20;
-	#40;
+	#60; // tolerance, since the effects might not happen immediately
 	
 	assert (led[2] == 0)       // check outputs
 				$display("PASSED! The counter module connection behaves as desired at time: %0t.", $time);
@@ -49,8 +48,7 @@ module lab1_ei_tb();
 				$error("FAILED! The counter module connection behaves incorrectly at time: %0t.", $time); 
 	
 	#200000000 // waiting for 48 MHz for counter to activate
-	#20;
-	#40;
+	#60; // tolerance
 	
 	assert (led[2] == 1)       // check outputs
 					$display("PASSED! The counter module connection behaves as desired at time: %0t.", $time);
@@ -272,7 +270,6 @@ module lab1_ei_tb();
         else 
             $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time); 
         
-
     #100 $stop;
   end
 endmodule

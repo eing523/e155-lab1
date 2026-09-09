@@ -4,6 +4,6 @@
 1 10 HSOSC_CORE 4 fast 58 C:/lscc/radiant/2026.1/cae_library/simulation/libs/iCE40UP 0 0 0 0 854 0
 1 5 HSOSC 4 fast 58 C:/lscc/radiant/2026.1/cae_library/simulation/libs/iCE40UP 0 0 0 0 887 0
 1 21 lab1_7_seg_decoder_ei 4 fast 78 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/lab1_ei_tb/qrun.out/work 0 0 131072 0 44 0
-1 15 lab1_counter_ei 4 fast 78 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/lab1_ei_tb/qrun.out/work 0 0 0 0 51 0
+1 15 lab1_counter_ei 4 fast 78 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/lab1_ei_tb/qrun.out/work 0 0 0 0 63 0
 1 7 lab1_ei 4 fast 78 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/lab1_ei_tb/qrun.out/work 0 0 0 0 45 0
-1 10 lab1_ei_tb 4 fast 78 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/lab1_ei_tb/qrun.out/work 0 0 0 0 524 0
+1 10 lab1_ei_tb 4 fast 78 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/lab1_ei_tb/qrun.out/work 0 0 0 0 518 0

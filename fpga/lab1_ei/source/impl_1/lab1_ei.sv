@@ -4,11 +4,11 @@
 // Summary: Top module used to instantiate modules plus the switch-to-LED assign logic.
 
 module lab1_ei(
-	input logic [3:0] s, // DIP switches
-	input  logic reset,
+	input  logic [3:0] s, // DIP switches
+	input  logic       reset,
 	output logic [6:0] seg,
 	output logic [2:0] led,
-	output logic clk
+	output logic       clk
 );
 		
 	// Internal high-speed oscillator
