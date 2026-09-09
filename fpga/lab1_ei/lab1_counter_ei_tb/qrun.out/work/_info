@@ -13,7 +13,7 @@ Z1 dC:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/lab1_counter_ei_tb
 vlab1_counter_ei
 Z2 2C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei_tb.sv
 Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
-Z4 !s110 1788939012
+Z4 !s110 1788946368
 !i10b 1
 !s100 9RCMOYYbYUd4ZkKhF?i9g1
 I1fm;_[>deQQ0>o5C^@cA^3
@@ -29,7 +29,7 @@ Z6 OL;L;2025.2;82
 r1
 !s85 0
 31
-Z7 !s108 1788939012.000000
+Z7 !s108 1788946368.000000
 Z8 !s107 C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei_tb.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv|
 Z9 !s90 -reportprogress|300|-L|work|-sv|-L|pmi_work|-L|ovi_ice40up|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei.sv|C:/Users/eing/Documents/GitHub/e155-lab1/fpga/lab1_ei/source/impl_1/lab1_counter_ei_tb.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-csession=incr|
 !i113 0
@@ -63,8 +63,8 @@ R11
 Tqrun_opt
 !i145 1
 !i144 0
-!s110 1788939013
-Vin2O0d3^BJ:hnIDZFWl2J3
+!s110 1788946369
+VDI4Kf7SeYmSHzWe4KD;Pg3
 04 18 4 work lab1_counter_ei_tb fast 0
 R0
 !s12f OEM25U2 
